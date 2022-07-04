@@ -6,16 +6,16 @@ public class Tecnico extends Pessoa {
 	private double salario;
 	private String data_admissao;
 	
-	public Tecnico(String funcao, double salario, String data_admissao, String nome, long cpf, String rg, String tel_contato, String end_residencial) {
-		super(nome, cpf, rg, tel_contato, end_residencial);
-		this.nome = nome;
+	public Tecnico(String funcao_tecnico, double salario_tecnico, String data_admissao_tecnico, String nome_tecnico, long cpf_tecnico, String rg_tecnico, String tel_contato_tecnico, String end_residencial_tecnico) {
+		super(nome_tecnico, cpf_tecnico, rg_tecnico, tel_contato_tecnico, end_residencial_tecnico);
+		/*this.nome = nome;
 		this.cpf = cpf;
 		this.rg = rg;
 		this.end_residencial = end_residencial;
-		this.tel_contato = tel_contato;
-		this.funcao = funcao;
-		this.salario = salario;
-		this.data_admissao = data_admissao;
+		this.tel_contato = tel_contato;*/
+		funcao = funcao_tecnico;
+		salario = salario_tecnico;
+		data_admissao = data_admissao_tecnico;
 	}
 
 	public String getFuncao() {
