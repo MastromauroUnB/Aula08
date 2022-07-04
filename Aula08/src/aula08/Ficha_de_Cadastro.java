@@ -1,6 +1,7 @@
 package aula08;
 
 public class Ficha_de_Cadastro {
+	
 	private Pessoa cliente;
 	private Plano plano_escolhido;
 
@@ -8,7 +9,6 @@ public class Ficha_de_Cadastro {
 			Plano plano_escolhido) {
 		this.cliente = cliente;
 		this.plano_escolhido = plano_escolhido;
-
 	}
 
 	public void trocar_plano(Plano novo) {
@@ -29,4 +29,11 @@ public class Ficha_de_Cadastro {
 		saida = saida + plano_escolhido.imprimir_informacoes_basicas();
 		return null;
 	}
+	public Pessoa getCliente() {
+		return this.cliente;
+	}
+	public Plano getPlano() {
+		return this.plano;
+	}
+	
 }

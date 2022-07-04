@@ -58,7 +58,7 @@ public class Plano {
 	}
 	
 	
-	public boolean deletar(Plano plano) {
+	public boolean deletar() {
 		//todo
 		return false;
 	}

@@ -86,7 +86,7 @@ public class Pessoa {
 			return null;
 		}
 	}*/
-	/*public boolean deletar(Pessoa pessoa) {
+	/*public boolean deletar() {
 		Plano plano = checar_plano(pessoa);
 		return false;
 	}*/
